@@ -66,7 +66,7 @@ def get_drink_detail(payload):
         return jsonify({
                 "success": True,
                 "drinks":drinks,
-                "status_code":200
+                "status_code": 200
         })
     except:
         abort(401)
